@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*Navbar*/
+.navbar{
+    background-color: rgb(39, 231, 180);
+     
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.logo::first-letter{
+    color: yellow;
+    font-weight: bold;
+    font-size: 40px;
+}
+.navbar ul li a{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/*Menu*/
+.menu-header h1::first-letter{
+    color: rgb(39, 231, 180);
+
+    font-size: 45px;
+}
+
+/*Contact*/
+.contact::first-letter{
+    color: rgb(39, 231, 180);
+
+    font-size: 45px;
+}
